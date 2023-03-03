@@ -15,7 +15,8 @@ export default defineConfig({
       output: [
         {
           format: "es",
-          entryFileNames: "[name].mjs",
+          // entryFileNames: "[name].mjs",
+          entryFileNames: "daizhuo.mjs",
           preserveModules: true,
           exports: "named",
           dir: "../dz-ui/es"
@@ -32,9 +33,6 @@ export default defineConfig({
 
     lib: {
       entry: "./index.ts"
-      // name: "dz-ui-cpns",
-      // fileName: "dz-ui-cpns",
-      // formats: ["cjs", "es", "umd"]
     }
   },
 
