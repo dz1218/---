@@ -15,8 +15,7 @@ export default defineConfig({
       output: [
         {
           format: "es",
-          // entryFileNames: "[name].mjs",
-          entryFileNames: "daizhuo.mjs",
+          entryFileNames: "[name].mjs",
           preserveModules: true,
           exports: "named",
           dir: "../dz-ui/es"
